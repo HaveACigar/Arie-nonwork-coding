@@ -1,0 +1,12 @@
+body {
+    background-color:lightgoldenrodyellow;
+  }
+  
+h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+div.linkedIn img {
+      width: 100px;
+      height: auto;
+  }
