@@ -1,16 +1,102 @@
 body {
-    background-color:lightgoldenrodyellow;
-  }
+  background-color:lightgoldenrodyellow;
+}
   
 h1 {
-    color: navy;
-    margin-left: 20px;
-  }
+  color: navy;
+  margin-left: 20px;
+}
+
 div.linkedIn img {
-      width: 100px;
-      height: auto;
-  }
+  width: 100px;
+  height: auto;
+}
+
 div.emu img {
-      width: 100px;
-      height: auto;
+  width: 100px;
+  height: auto;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.img-myself {
+  padding-top: 30px;
+}
+
+.img-banner {
+  display: none;
+}
+
+.img-info {
+  width: 100%
+}
+
+.img-info h2 {
+  padding: 30px 30px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  color:rgb(189, 72, 43);
+  line-height: 44px;
+}
+
+.img-info p {
+  padding: 0px 30px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  color:rgb(50, 13, 94);
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .img-banner {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .img-info h2 {
+    padding: 20px 0px 0px;
+  }
+  
+  .img-info p {
+    padding: 20px 0px 0px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .img-banner {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .wrapper {
+    width: 1000px;
+  }
+
+  .img-info {
+    width: 50%;
+    float: right;
+  }
+
+  .img-myself {
+    padding-top: 0px;
+    width: 50%;
+    float: left;
+  }
+
+  .img-info h2 {
+    padding: 20px 0px 0px 30px;
+  }
+  
+  .img-info p {
+    padding: 20px 0px 0px 30px;
+  }
 }
